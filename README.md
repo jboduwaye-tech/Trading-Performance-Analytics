@@ -83,18 +83,20 @@ Using SQL for data transformation and Power BI for visualization, the analysis p
 ## 🛠️ Technical Implementation
 
 ### SQL
-- Data transformation and feature engineering  
-- Use of window functions (`SUM OVER`, `LAG`) for:
-  - Equity curve construction  
-  - Drawdown calculation  
-  - Streak analysis  
-- Creation of analytical views for downstream visualization  
+- Built a raw-to-clean transformation pipeline to standardize trade data, resolving datetime inconsistencies and non-standard numeric formats (e.g., bracketed negatives)
+- Performed data transformation and feature engineering to support time-based and behavioral analysis
+- Leveraged window functions (SUM OVER, LAG) to construct:
+  - Equity curve (cumulative PnL)
+  - Drawdown from peak
+  - Trade outcome sequencing (streak analysis)
+- Created reusable analytical views to support downstream visualization in Power BI
 
 ### Power BI
-- Interactive dashboard design  
-- Time-series visualization (equity curve, drawdown)  
-- KPI cards and categorical breakdowns  
-- Custom tooltips for trade-level detail  
+- Designed an interactive dashboard to communicate performance, timing edge, and risk
+- Built time-series visuals for equity curve and drawdown analysis
+- Developed KPI cards and categorical breakdowns for performance decomposition
+- Applied Power Query and DAX for additional data shaping and metric calculations
+- Implemented custom tooltips to surface trade-level context without cluttering visuals
 
 ---
 
