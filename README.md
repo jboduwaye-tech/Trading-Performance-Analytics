@@ -9,13 +9,13 @@ This dashboard breaks performance down into expectancy, execution edge, and risk
 ## 📈 Dashboard Preview
 
 ### Performance Overview
-
+![Performance Overview](screenshots/page1_performance_overview.png)
 
 ### Timing & Duration Edge
-
+![Timing & Duration](screenshots/page2_timing_duration.png)
 
 ### Behavior & Risk
-
+![Behavior Risk](screenshots/page3_behavior_risk.png)
 
 ---
 
